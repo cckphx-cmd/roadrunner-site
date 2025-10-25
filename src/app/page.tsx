@@ -1,65 +1,60 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+    <div className="space-y-12">
+      <section>
+        <h1 className="text-3xl font-semibold">Roadrunner Tree Grant — Saguaro District</h1>
+        <p className="mt-2">
+          Get up to <strong>2 free shade trees</strong> if your home qualifies.{" "}
+          <a className="underline" href="#eligibility">Check eligibility</a>.
+        </p>
+      </section>
+
+      <section id="overview">
+        <h2 className="text-2xl font-semibold">Program overview</h2>
+        <ul className="list-disc pl-5">
+          <li>City of Phoenix Community Canopy Tree Grant</li>
+          <li>Two trees per household. Planting and supplies included</li>
+          <li>Friendly help through a simple chatbot</li>
+        </ul>
+      </section>
+
+      <section id="eligibility">
+        <h2 className="text-2xl font-semibold">Boundaries</h2>
+        <p>
+          Eligible area: <strong>19th Ave – 23rd Ave</strong>, <strong>McDowell Rd</strong> to the
+          <strong> south side</strong> of <strong>Thomas Rd</strong>.
+        </p>
+        <p>Not sure? Open the chat and enter your address to confirm.</p>
+        <p className="mt-2">
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="underline"
+            href="https://experience.arcgis.com/experience/4ff4f175842f4fc5b8b73f2f24a2c39d"
             target="_blank"
-            rel="noopener noreferrer"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+            Official eligibility map
+          </a>
+        </p>
+      </section>
+
+      <section id="species">
+        <h2 className="text-2xl font-semibold">Approved tree species</h2>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <a
+            className="underline"
+            href="https://www.phoenix.gov/content/dam/phoenix/heatsite/documents/English%20Tree%20Species.pdf"
+            target="_blank"
+          >
+            Tree Species List – English
           </a>
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="underline"
+            href="https://www.phoenix.gov/content/dam/phoenix/heatsite/documents/Spanish%20Tree%20Species.pdf"
             target="_blank"
-            rel="noopener noreferrer"
           >
-            Documentation
+            Lista de Árboles – Español
           </a>
         </div>
-      </main>
+      </section>
     </div>
   );
 }

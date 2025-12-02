@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "Roadrunner Tree Grant – Saguaro District",
+    "description": "Greenway Terrace neighborhood tree grant info and eligibility."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About & Midcentury",
+    "submit": "Submit & Tree Info"
+  },
+  "footer": {
+    "links": "Links:",
+    "cityProgram": "City Tree Grant Programs"
+  },
+  "home": {
+    "title": "Roadrunner Tree Grant — Saguaro District",
+    "subtitle": "Get up to {count} free shade trees if your home qualifies.",
+    "checkEligibility": "Check eligibility",
+    "overview": {
+      "title": "Program overview",
+      "item1": "City of Phoenix Community Canopy Tree Grant",
+      "item2": "Two trees per household. Planting and supplies included",
+      "item3": "Friendly help through a simple chatbot"
+    },
+    "eligibility": {
+      "title": "Boundaries",
+      "description": "Eligible area: {west} – {east}, {north} to the {southSide} of {south}.",
+      "west": "19th Ave",
+      "east": "23rd Ave",
+      "north": "McDowell Rd",
+      "southSide": "south side",
+      "south": "Thomas Rd",
+      "notSure": "Not sure? Open the chat and enter your address to confirm.",
+      "mapLink": "Official eligibility map"
+    },
+    "species": {
+      "title": "Approved tree species",
+      "englishList": "Tree Species List – English",
+      "spanishList": "Lista de Árboles – Español"
+    }
+  }
+}

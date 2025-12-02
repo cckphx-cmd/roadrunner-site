@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "Subvención de Árboles Roadrunner – Distrito Saguaro",
+    "description": "Información de subvención de árboles del vecindario Greenway Terrace y elegibilidad."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de & Mediados de Siglo",
+    "submit": "Enviar e Información de Árboles"
+  },
+  "footer": {
+    "links": "Enlaces:",
+    "cityProgram": "Programas de Subvención de Árboles de la Ciudad"
+  },
+  "home": {
+    "title": "Subvención de Árboles Roadrunner — Distrito Saguaro",
+    "subtitle": "Obtenga hasta {count} árboles de sombra gratis si su hogar califica.",
+    "checkEligibility": "Verificar elegibilidad",
+    "overview": {
+      "title": "Resumen del programa",
+      "item1": "Subvención de Árboles Community Canopy de la Ciudad de Phoenix",
+      "item2": "Dos árboles por hogar. Plantación y suministros incluidos",
+      "item3": "Ayuda amigable a través de un chatbot simple"
+    },
+    "eligibility": {
+      "title": "Límites",
+      "description": "Área elegible: {west} – {east}, {north} hasta el {southSide} de {south}.",
+      "west": "19th Ave",
+      "east": "23rd Ave",
+      "north": "McDowell Rd",
+      "southSide": "lado sur",
+      "south": "Thomas Rd",
+      "notSure": "¿No está seguro? Abra el chat e ingrese su dirección para confirmar.",
+      "mapLink": "Mapa de elegibilidad oficial"
+    },
+    "species": {
+      "title": "Especies de árboles aprobadas",
+      "englishList": "Lista de Especies de Árboles – Inglés",
+      "spanishList": "Lista de Árboles – Español"
+    }
+  }
+}
